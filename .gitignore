@@ -1,0 +1,87 @@
+# === Maven ===
+target/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+.mvn/
+mvnw
+mvnw.cmd
+
+# === IDE - IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# === IDE - VS Code ===
+.vscode/
+
+# === IDE - Eclipse ===
+.settings/
+.metadata/
+bin/
+*.launch
+
+# === IDE - NetBeans ===
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# === OS ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+~$*
+
+# === Logs ===
+logs/
+*.log
+log/
+
+# === 本地/敏感配置文件 (可能包含密码和密钥) ===
+application-local.yaml
+application-local.yml
+application-local.properties
+application-dev.yaml
+application-dev.yml
+application-dev.properties
+*.local.*
+*.dev.*
+
+# === 环境变量文件 ===
+.env
+.env.local
+.env.*.local
+
+# === Node.js (如果前端在此项目中) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Docker ===
+docker-compose.override.yml
+
+# === 密钥/证书 ===
+*.pem
+*.key
+*.pfx
+*.p12
+*.cert
+*.keystore
